@@ -1,0 +1,173 @@
+body {
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+#header ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+
+h2 {
+    color: limegreen;
+
+}
+
+
+#header li{
+    float: left;
+    display: inline;
+
+}
+
+
+table{
+    font-size: 18px;
+    border: 2px;
+    background-color: darkcyan;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    width: 90%;
+}
+
+td{
+    background-color: lightblue;
+    width: 150px;
+}
+
+tr{
+    background-color: aquamarine;
+}
+
+th{
+    text-align: left;
+    background-color: chocolate;
+}
+
+#header li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    height: 10%;
+    float: right;
+}
+
+#header li a:hover{
+    background-color: #111;
+}
+
+#nav ul {
+    list-style-type: none;
+    color: red;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li a {
+    color: red;
+    display: block;
+    width: 100%;
+}
+
+#nav, #content {
+    height: 900px;
+}
+
+
+#content {
+    width: 90%;
+
+    padding-left: 75px; padding-right: 70px;
+    float: left;
+    background-color: #ffb64d;
+}
+
+#main{
+    width: 90%;
+}
+
+#nav {
+    line-height:25px;
+    background-color: midnightblue;
+
+    width:10%;
+    float:left;
+    display: block;
+}
+
+
+
+#footer {
+    background-color:black;
+    color:green;
+    clear:both;
+    text-align:center;
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:25px;
+
+}
+
+#footer h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+#footer a{
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited#footer {
+    background-color:blue;
+    color:green;
+    clear:both;
+    text-align:center;
+    padding:5px;
+
+}
+
+span {
+    color:red
+}
