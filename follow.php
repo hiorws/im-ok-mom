@@ -33,7 +33,8 @@ if (isset($_GET["follow"])) {
         # echo "Hello";
         if($result){
             mysqli_close($conn);
-            header('Location: profile.php'); // Redirecting To Home Page
+            // header('Location: profile.php'); // Redirecting To Home Page
+            echo "<script> location.replace('profile.php'); </script>";
         }
     }
 }

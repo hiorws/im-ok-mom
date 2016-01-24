@@ -34,7 +34,8 @@ if (isset($_POST["submit"])) {
         # echo "Hello";
         if($result){
             mysqli_close($conn);
-            header('Location: index.php'); // Redirecting To Home Page
+            // header('Location: index.php'); // Redirecting To Home Page
+            echo "<script> location.replace('index.php'); </script>";
         }
 
     }

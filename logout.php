@@ -15,7 +15,8 @@ require_once("templates/header.php");
 session_start();
 if(session_destroy()) // Destroying All Sessions
 {
-    header("Location: index.php"); // Redirecting To Home Page
+    // header("Location: index.php"); // Redirecting To Home Page
+    echo "<script> location.replace('index.php'); </script>";
 }
 ?>
 <div id="content">

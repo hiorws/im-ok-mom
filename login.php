@@ -31,8 +31,8 @@ if (isset($_POST['submit'])) {
         $result = mysqli_query($conn, $sql);
         if(mysqli_num_rows($result)){
             $_SESSION['username'] = $login_username; // Initializing Session
-            header("location: profile.php"); // Redirecting To Other Page
-
+            // header("location: profile.php"); // Redirecting To Other Page
+            echo "<script> location.replace('profile.php'); </script>";
         }
 
         else{

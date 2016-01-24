@@ -62,7 +62,8 @@ if (isset($_GET["search_submit"])) {
 
         if($result){
             // mysqli_close($conn);
-        //    header('Location: index.php'); // Redirecting To Home Page
+            // header('Location: index.php'); // Redirecting To Home Page
+            // echo "<script> location.replace('index.php'); </script>";
         }
 
     }
