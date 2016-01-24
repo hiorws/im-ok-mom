@@ -11,9 +11,9 @@ if (isset($_GET["search_submit"])) {
         $search_key = $_GET['search_text'];
 
         $host = "localhost";
-        $username = "root";
-        $password = "root";
-        $db_name = "imokmom";
+        $username = "ozgurkod_root";
+        $password = "Ok!!MoM456_imokmom";
+        $db_name = "ozgurkod_imokmom";
 
         // Create connection
         $conn = new mysqli($host, $username, $password, $db_name);

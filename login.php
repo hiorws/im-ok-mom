@@ -12,9 +12,9 @@ if (isset($_POST['submit'])) {
         $login_password = $_POST['password'];
 
         $host = "localhost";
-        $username = "root";
-        $password = "root";
-        $db_name = "imokmom";
+        $username = "ozgurkod_root";
+        $password = "Ok!!MoM456_imokmom";
+        $db_name = "ozgurkod_imokmom";
 
         // Create connection
         $conn = new mysqli($host, $username, $password, $db_name);

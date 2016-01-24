@@ -2,9 +2,9 @@
 session_start();// Starting Session
 
 $host = "localhost";
-$username = "root";
-$password = "root";
-$db_name = "imokmom";
+$username = "ozgurkod_root";
+$password = "Ok!!MoM456_imokmom";
+$db_name = "ozgurkod_imokmom";
 
 
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
