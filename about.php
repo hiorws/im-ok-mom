@@ -9,6 +9,15 @@ require_once("templates/header.php");
 
     <h2>
         What is "I'm OK Mom!" ?
+        A micro blogging web application.
+
+        -Are you tired of non-stop texting your girlfriend/boyfriend?
+        -Are you trying to automatize to give report to your parents?
+
+        Here is the spot!
+
+        ##"I'm OK Mom!"
+        is with you.
     </h2>
 
 </div>
