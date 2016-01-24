@@ -8,16 +8,16 @@ require_once("templates/header.php");
 <div id="content">
 
     <h2>
-        What is "I'm OK Mom!" ?
-        A micro blogging web application.
-
-        -Are you tired of non-stop texting your girlfriend/boyfriend?
-        -Are you trying to automatize to give report to your parents?
-
+        What is "I'm OK Mom!" ?</br>
+        A micro blogging web application.</br>
+        </br></br>
+        -Are you tired of non-stop texting your girlfriend/boyfriend?</br>
+        -Are you trying to automatize to give report to your parents?</br>
+        </br>
         Here is the spot!
-
-        ##"I'm OK Mom!"
-        is with you.
+        </br>
+        "I'm OK Mom!
+        is with you.</br></br>
     </h2>
 
 </div>
@@ -26,4 +26,3 @@ require_once("templates/header.php");
 <?php
 require_once("templates/footer.php");
 ?>
-
